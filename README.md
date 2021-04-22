@@ -24,7 +24,7 @@ take the [version](./store.war) in the root directory of this repository.
 
 Copy the .war file to the webapps folder of your shared application
 server. For instance, on Tomcat you would copy it to the
-`/server/apache-tomcat-9.0.12/webapps` directory. Tomcat then deploys
+`/server/apache-tomcat-X.X.XX/webapps` directory. Tomcat then deploys
 the application for you.
 
 ---
