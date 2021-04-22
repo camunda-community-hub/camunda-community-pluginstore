@@ -1,0 +1,8 @@
+
+# intellij files
+.idea
+*.iml
+
+target
+*.zip
+camunda-bpm-ee-tomcat*
