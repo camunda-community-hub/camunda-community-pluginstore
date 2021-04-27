@@ -12,6 +12,13 @@ If you want to participate in the Camunda Community Summit 2021 plugin competiti
 
 ## How to Install the Plugin Store
 
+### Easy Way
+
+1. Download [this file](https://github.com/camunda-community-hub/camunda-community-pluginstore/blob/main/store.war?raw=true)
+2. Put it in the `/server/apache-tomcat-X.X.XX/webapps` directory
+
+### Hard way
+
 Execute the following command to build the plugin store:
 
 ```bash
@@ -19,8 +26,6 @@ mvn clean install
 ```
 
 As a result you will find a `store.war` file in the `target` folder.
-In case you don't want to build the war file yourself, you can just
-take the [version](./store.war) in the root directory of this repository.
 
 Copy the .war file to the webapps folder of your shared application
 server. For instance, on Tomcat you would copy it to the
